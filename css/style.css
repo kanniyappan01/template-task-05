@@ -121,9 +121,14 @@ a{
     background-repeat:no-reapeat;
     background-attachment:fixed;
 }
+.banner-main{
+	width:100%;
+	padding:300px 0px;
+	display:flex;
+	flex-wrap:wrap;
+}
 .bbox{
 	width:50%;
-	padding:280px 0px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -200,6 +205,7 @@ a{
 /*banner-sec end*/
 .bbox-01{
 	width:100%;
+	padding-bottom:50px;
 }
 .b-wel{
 	font-weight:700;
@@ -348,6 +354,7 @@ a{
 .whyus-mini{
 	background-color:#1a1814;
 	min-height:258px;
+	margin-bottom:10px;
 }
 .whyus-mini:hover{
 	background-color:#cda45e;
@@ -520,7 +527,7 @@ a{
 .spacial-div{
 	width:100%;
 	display:flex;
-	
+	flex-wrap:wrap;
 }
 .spacial-01{
 	width:24%;
@@ -529,6 +536,7 @@ a{
 	width:76%;
 	padding-left:25px ;
 	display:flex;
+	flex-wrap:wrap;
 }
 .special-con{
 	width:66%;
@@ -682,9 +690,7 @@ a{
 	display:flex;
 	justify-content:center;
 }
-.book-but-mini{
-	width:26%;
-}
+ 
 .book-but .b-b{
 	background-color:#cda45e;
 	font-family: "Poppins", sans-serif;
@@ -706,13 +712,11 @@ a{
 }
 .test-01{
 	width:33.33%;
-	padding:0px 23px 0px 23px;
 	position:relative;
 }
 .test-con{
 	background-color:#26231d;
-}
-.test-con{
+	margin:0px 0px;
 	padding:25px 18px 63px 18px;
 }
 .test-icon .img img{
