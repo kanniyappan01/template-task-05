@@ -1,6 +1,9 @@
-@media (max-width:576px){
+@media(max-width:576px){
 	.container{
 		width:100%;
+	}
+	.padding{
+		padding:240px 0px ;
 	}
 	.d-none{
 		display:none;
@@ -39,9 +42,33 @@
 	    width:91.66%;
 	}
     .col-12{
-	    width:100% !important;
+	    width:100%;
 	}
 	.flex-colomn-reverse{
 		flex-direction:column-reverse !important;
+	}
+	.text-center{
+		text-align:center;
+	}
+	.d-lfex{
+		display:flex;
+	}
+	.align-items-center{
+		align-items:center;
+	}
+	.justify-content-center{
+		justify-content:center;
+	}
+	.f-size01{
+		font-size:12px;
+	}
+	.f-size02{
+		font-size:16px;
+	}
+	.h1{
+		font-size:28px;
+	}
+	.b-img-size{
+		background-size:center;
 	}
 }
