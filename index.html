@@ -8,12 +8,13 @@
 			<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 			<link rel="stylesheet" href="css/style.css">
 			<link rel="stylesheet" href="css/responsive.css">
+			
 		</head>
 		<body>
 		<!--header part start-->
 		<header class="header-sec">
 		    <div class="container">
-			    <div class="cont-box01 col-12 justify-content-center">
+			    <div class="cont-box01 col-12 col-6 justify-content-center">
 				    <ul>
 					    <li>
 						    <i class="icofont-samsung-galaxy"></i>
@@ -25,7 +26,7 @@
 						</li>
 					</ul>
 				</div>
-			    <div class="cont-box02 d-none">
+			    <div class="cont-box02 col-6 d-none">
 				    <div class="lan d-none">
 				        <ul>
 					        <li><a href="#">En&nbsp;</a><li><span>/</span><li><a href="#">&nbsp;De</a><li>
@@ -38,9 +39,9 @@
 			<div class="header-menu">
 			    <div class="container">
 			        <div class="menu-stat col-12">
-				        <span class="res-head h1"><a href="#">RESTAURANTLY</a></span> 
+				        <h1 class="res-head h1"><a href="#">RESTAURANTLY</a></h1> 
 				    </div>
-			        <div class="menu-mid d-none">
+			        <div class="menu-mid d-none d-none-md ">
 				        <ul>
 					        <li><a href="#">Home</a></li>
 					        <li><a href="#">About</a></li>
@@ -53,7 +54,7 @@
 					        <li><a href="#">Contact</a></li>
 					    </ul>
 				    </div>
-			        <div class="menu-end d-none">
+			        <div class="menu-end d-none d-none-md">
 				        <a href="#">BOOK A TABLE</a>
 				    </div>
 			    </div>
@@ -61,22 +62,25 @@
         </header>
         <!--nave part start-->
         <!--banner section start-->
-        <section class="banner-sec">
+        <section class="banner-sec b-img-size d-flex">
 			    <div class="container">
 				    <div class="banner-main">
 				        <div class="bbox col-12">
 					        <div class="bbox-01 text-center">
-						        <h1 class="b-wel h1">Welcome to <span class="b-res">Restaurantly<span></h1>
-							    <span class="h2-con f-size02">Delivering great food for more than 18 years!</span>
+						        <h1 class="b-wel h2">Welcome to <span class="b-res">Restaurantly<span></h1>
+							    <h2 class="h2-con f-size02">Delivering great food for more than 18 years!</h2>
 							    <div class="bbuttons">
-							        <a class="bb-01" href="#">OUR MENU</a>
-								    <a class="bb-01" href="#">BOOK A TABLE</a>
+							        <a href="#">OUR MENU</a>
+								    <a href="#">BOOK A TABLE</a>
 							    </div>
 						    </div>
 				        </div>
 				        <div class="bbox col-12">
 					        <div class="banner-paly-btn">
-							    <a href="#"><i class="icofont-ui-play icon-01"></i><i class="icofont-ui-play icon-02"></i></a>
+							    <a href="#">
+								    <i class="icofont-ui-play icon-01"></i>
+									<i class="icofont-ui-play icon-02"></i>
+								</a>
 						    </div>
 					    </div>
 					</div>
@@ -106,7 +110,7 @@
 		<!--why us section start-->
 		<section class="whyus-sec">
 		    <div class="container">
-			    <div class="whyus-top">
+			    <div class="con-head">
 					<span>WHY US</span>
 				    <h2>Why Choose Our Restaurant</h2>
 			    </div>
@@ -144,7 +148,7 @@
 		<!--menu section start-->
 		<section class="menu-sec">
 			<div class="container">
-				<div class="menu-head">
+				<div class="con-head">
 					<span>MENU</span>
 					<h2>Check Our Tasty Menu</h2>
 				</div>
@@ -270,7 +274,7 @@
 						    <li><a href="#">Iusto ut expedita aut</a></li>
 						</ul>
 					</div>
-				    <div class="spacial-02 flex-colomn-reverse">
+				    <div class="spacial-02 col-12 flex-colomn-reverse">
 					    <div class="special-con col-12">
 						    <h2>Architecto ut aperiam autem id</h2>
 							<p class="p1">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
@@ -307,12 +311,10 @@
 						    <p> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>	
 					    </div>
 					</div>
-					<div class="slide">
-					    <div>
-					        <a href="#">.</a>
-					        <a href="#">.</a>
-					        <a href="#">.</a>
-					    </div>
+				    <div class="slide">
+					    <a href="#"></a>
+					    <a href="#"></a>
+					    <a href="#"></a>
 					</div>
 				</div>
 		</section>
@@ -325,18 +327,18 @@
 					<h2>Book a Table</h2>
 			    </div>
 				<div class="book-table">
-					<div class="col-12"><input class="your" type="text" name="yourname" placeholder="Your Name"></div>
-					<div class="col-12"><input class="your" type="email" name="yourname" placeholder="Your Email"></div>
-					<div class="col-12"><input class="your" type="text" name="yourname" placeholder="Your Phone"></div>
-					<div class="col-12"><input class="your" type="text" name="yourname" placeholder="Date"></div>
-					<div class="col-12"><input class="your" type="text" name="yourname" placeholder="Time"></div>
-					<div class="col-12"><input class="your" type="number" name="yourname" placeholder="# of People"></div>
+				    <form action="#">
+					    <div class="form-input col-12 col-6"><input class="your" type="text" name="yourname" placeholder="Your Name"></div>
+					    <div class="form-input input col-12 col-6"><input class="your" type="email" name="yourname" placeholder="Your Email"></div>
+					    <div class="form-input col-12 col-6"><input class="your" type="text" name="yourname" placeholder="Your Phone"></div>
+					    <div class="form-input col-12 col-6"><input class="your" type="text" name="yourname" placeholder="Date"></div>
+					    <div class="form-input col-12 col-6"><input class="your" type="text" name="yourname" placeholder="Time"></div>
+					    <div class="form-input col-12 col-6"><input class="your" type="number" name="yourname" placeholder="# of People"></div>
+						<div class="msg-box col-12"><textarea class="msg" type="text" name="yourname" rows="6" placeholder="Message"></textarea></div>
+					</form>
 				</div>
-				<div class="msg-box col-12"><textarea class="msg" type="text" name="yourname" placeholder="Message"></textarea></div>
 				<div class="book-but col-12">
-
-				        <a class="b-b" href="#">BOOK A TABLE</a>
-
+				    <a class="b-b" href="#">BOOK A TABLE</a>
 				</div>
 		    </div>
 		</section>
@@ -352,40 +354,40 @@
 					<div class="test-01 col-12">
 					    <div class="test-con">
 						    <p><i class="icofont-quote-left"></i>Euis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.<i class="icofont-quote-right"></i></p>
-						</div>
-						<div class="test-icon">
-						    <div class="img"><img src="images/testimonials-1.jpg" alt="image"></div>
-							<h3>Saul Goodman</h3>
-							<span>Ceo & Founder</span>
-						</div>
-				    </div>
-					<div class="test-01 col-12">
-					    <div class="test-con">
-						    <p><i class="icofont-quote-left"></i>Euis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. <i class="icofont-quote-right"></i></p>
-						</div>
-						<div class="test-icon">
-						    <div class="img"><img src="images/testimonials-2.jpg" alt="image"></div>
-							<h3>Matt Brandon</h3>
-							<span>Freelancer</span>
+						    <div class="test-icon">
+						        <div class="img"><img src="images/testimonials-1.jpg" alt="image"></div>
+							    <h3>Saul Goodman</h3>
+							    <span>Ceo & Founder</span>
+						    </div>
 						</div>
 				    </div>
 					<div class="test-01 col-12">
 					    <div class="test-con">
 						    <p><i class="icofont-quote-left"></i>Euis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. <i class="icofont-quote-right"></i></p>
+						    <div class="test-icon">
+						        <div class="img"><img src="images/testimonials-2.jpg" alt="image"></div>
+							    <h3>Matt Brandon</h3>
+							    <span>Freelancer</span>
+							</div>
 						</div>
-						<div class="test-icon">
-						    <div class="img"><img src="images/testimonials-3.jpg" alt="image"></div>
-							<h3>Sara Wilsson</h3>
-							<span>Designer</span>
+				    </div>
+					<div class="test-01 col-12">
+					    <div class="test-con">
+						    <p><i class="icofont-quote-left"></i>Euis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. <i class="icofont-quote-right"></i></p>
+						    <div class="test-icon">
+						        <div class="img"><img src="images/testimonials-3.jpg" alt="image"></div>
+							    <h3>Sara Wilsson</h3>
+							    <span>Designer</span>
+						    </div>
 						</div>
 					</div>
 				</div>
-				<div class="test-swipe">
-					<span class="dote"></span>
-					<span class="dote"></span>
-					<span class="dote"></span>
-					<span class="dote"></span>
-					<span class="dote"></span>
+				<div class="slide">
+				    <a href="#"></a>
+				    <a href="#"></a>
+				    <a href="#"></a>
+				    <a href="#"></a>
+				    <a href="#"></a>
 			    </div>
 			</div>
 		</section>
@@ -399,28 +401,28 @@
 			    </div>
 			</div>
 			    <div class="container-fluid m-02">
-			        <div class="gall-sec-img col-12">
+			        <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-1.jpg" alt="some photo about restaurant">
 			        </div>
-				    <div class="gall-sec-img col-12">
+				    <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-2.jpg" alt="some photo about restaurant">
 			        </div>
-				    <div class="gall-sec-img col-12">
+				    <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-3.jpg" alt="some photo about restaurant">
 			        </div>
-				    <div class="gall-sec-img col-12">
+				    <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-4.jpg" alt="some photo about restaurant">
 			        </div>
-				    <div class="gall-sec-img col-12">
+				    <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-5.jpg" alt="some photo about restaurant">
 			        </div>
-				    <div class="gall-sec-img col-12">
+				    <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-6.jpg" alt="some photo about restaurant">
 			        </div>
-				    <div class="gall-sec-img col-12">
+				    <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-7.jpg" alt="some photo about restaurant">
 			        </div>
-				    <div class="gall-sec-img col-12">
+				    <div class="gall-sec-img col-12 col-4">
 			            <img src="images/gallery-8.jpg" alt="some photo about restaurant">
 			        </div>
 			    </div>
@@ -492,7 +494,7 @@
 			</div>
 		<!--contact sec start--->
 			<div class="container">
-			    <div class="contact-01">
+			    <div class="contact-01 col-12">
 				    <div class="info col-12">
 				        <div class="contact-info col-12">
 					        <div class="icon">
@@ -534,10 +536,12 @@
 				</div>
 			    <div class="contact-02 col-12">
 				    <div class="message-boxs">
-					    <div class="box-01 col-12"><input class="your" type="text" name="yourname" placeholder="Your Name"></div>
-						<div class="box-02 col-12"><input class="your" type="email" name="yourname" placeholder="Your Email"></div>
-						<div class="box-03 col-12"><input class="sub" type="text" name="yourname" placeholder="Subject"></div>
-						<div class="msg-box01 col-12"><textarea class="msg" type="text" name="yourname" placeholder="Message"></textarea></div>
+					    <form action="#">
+					        <div class="box-01 col-12"><input class="your" type="text" name="yourname" placeholder="Your Name"></div>
+						    <div class="box-02 col-12"><input class="your" type="email" name="yourname" placeholder="Your Email"></div>
+						    <div class="box-03 col-12"><input class="sub" type="text" name="yourname" placeholder="Subject"></div>
+						    <div class="msg-box01 col-12"><textarea class="msg" type="text" name="yourname" placeholder="Message"></textarea></div>
+						</form>
 					</div>
 					<div class="book-but">
 				        <div class="book-but-mini">
@@ -551,10 +555,10 @@
 		<!-- footer contact sec start--->
 		<section class="footer-contact-sec">
 		    <div class="container">
-			    <div class="footer-box-01 col-12">
+			    <div class="footer-box-01 m-3 col-12 col-6">
 				    <h3>restaurantly</h3>
-					<span class="span-01">A108 Adam Street<br>NY <small>535022</small>, USA</span>
-					<span class="span-02"><b>Phone:</b> +1 5589 55488 55<br><b>Email:</b> info@example.com</span>
+					<p class="span-01">A108 Adam Street<br>NY <small>535022</small>, USA</p>
+					<p class="span-02"><b>Phone:</b> +1 5589 55488 55<br><b>Email:</b> info@example.com</p>
 					<div class="footer-icons">
 					    <a href="#"><i class="icofont-twitter"></i></a>
 				        <a href="#"><i class="icofont-facebook"></i></a>
@@ -563,8 +567,8 @@
 					    <a href="#"><i class="icofont-linkedin"></i></a>
 					</div>
 				</div>
-			    <div class="footer-box-02 col-12">
-				    <span>Useful Links</span>
+			    <div class="footer-box-02 m-3 col-12 col-6">
+				    <h4>Useful Links</h4>
 					<ul>
 					    <li><i class="icofont-simple-right"></i><a href="#">Home</a></li>
 					    <li><i class="icofont-simple-right"></i><a href="#">About us</a></li>
@@ -573,8 +577,8 @@
 					    <li><i class="icofont-simple-right"></i><a href="#">Privacy policy</a></li>
 					</ul>
 				</div>
-			    <div class="footer-box-02 col-12">
-				    <span>Our Services</span>
+			    <div class="footer-box-02 col-12 col-6">
+				    <h4>Our Services</h4>
 					<ul>
 					    <li><i class="icofont-simple-right"></i><a href="#">Web Design</a></li>
 					    <li><i class="icofont-simple-right"></i><a href="#">Web Development</a></li>
@@ -583,20 +587,20 @@
 					    <li><i class="icofont-simple-right"></i><a href="#">Graphic Design</a></li>
 					</ul>
 				</div>
-			    <div class="footer-box-03 col-12">
-				    <span>Our Newsletter</span>
+			    <div class="footer-box-03 col-12 col-6">
+				    <h4>Our Newsletter</h4>
 					<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-					<div class="subs">
-					    <div class="input"><input type="text"></div>
-					    <a href="#">Subscribe</a>
-					</div>
+					<form action="">
+					    <input type="text">
+						<a href="#">Subscribe</a>
+					</form>
 				</div>
 			</div>
 		</section>
 		<!--contact sec start--->
 		<!--footer end start--->
 		<div class="footer-end">
-		    <span><i class="icofont-copyright"></i>Copyright<b>Restaurantly</b>. All Rights Reserved</span>
+		    <p><i class="icofont-copyright"></i>Copyright<b>Restaurantly</b>. All Rights Reserved</p>
 			<p>Designed by <a href="#">BootstrapMade</a></p>
 		</div>
 		<!--footer end end--->
