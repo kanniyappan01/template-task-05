@@ -28,7 +28,6 @@
 li{
 	font-size:15px;
 	list-style-type:none;
-	display:inline-block;
 }
 a{
 	text-decoration:none;
@@ -39,6 +38,9 @@ a{
 	display:flex;
 	align-items:center;
 	padding:5px 0px;
+}
+.cont-box01 ul li{
+	display:inline-block;
 }
 .cont-box01 ul li i{
 	color:#cda45e;
@@ -54,6 +56,9 @@ a{
 	font-family: "Poppins", sans-serif;
 	width:65%;
 	padding:5px 0px;
+}
+.lan ul li{
+	display:inline-block;
 }
 .lan{
 	display:flex;
@@ -80,6 +85,9 @@ a{
 }
 .menu-mid ul{
 	padding:10px 0px;
+}
+.menu-mid li{
+	display:inline-block;
 }
 .menu-mid li a{
 	padding-right:20px;
@@ -270,6 +278,7 @@ a{
 	padding-bottom:10px;
 	font-family: "Open Sans", sans-serif;
 	font-size:16px;
+	display:inline-block;
 }
 .acon-mini ul li i{
 	font-size:14px;
@@ -492,6 +501,9 @@ a{
 	color:#aaaaaa;
 	margin-top:4px;
 }
+.center ul li{
+	display:inline-block;
+}
 .center ul li a:hover{
 	color:#cda45e;
 }
@@ -550,6 +562,7 @@ a{
 	width:100%;
 	font-family: "Poppins", sans-serif;
 	font-weight:600;
+	display:inline-block;
 }
 .spacial-01 ul li a{
 	display:block;
@@ -626,6 +639,7 @@ a{
 .event-02-mini li{
 	font-family: "Poppins", sans-serif;
 	margin:6px 4px;
+	display:inline-block;
 	
 }
 .event-02-mini p{
@@ -808,16 +822,19 @@ a{
 }
 .chef-boxs .box-01{
 	width:33.33%;
-	position:relative;
+	
 	overflow:hidden;
 	padding:0px 13px;
 	margin-bottom:15px;
 }
 .chef-boxs .box-01 img{
 	width:100%;
+	display:block;
 }
-.chef-boxs .hover{
-	width:100%;
+.chef-boxs .box-01 .in-box{
+	position:relative;
+}
+.chef-boxs .chef-slide{
 	opacity:0;
 	position:absolute;
 	top:0;
@@ -829,39 +846,37 @@ a{
 	align-items:flex-end;
 	transition:all 0.4s ease;
 }
-.chef-boxs .hover .chef-dtl{
+.chef-boxs .chef-slide .chef-dtl{
 	text-align:center;
 	width:100%;
-	height:100%;
 	position:absolute;
-	padding-top:270px;
 	transition:all 0.4s ease;
 }
-.chef-boxs .hover .chef-dtl h4{
+.chef-boxs .slide .chef-dtl h4{
 	font-size:19px;
 	margin-bottom:3px;
 }
-.chef-boxs .hover .chef-dtl span{
+.chef-boxs .chef-slide .chef-dtl span{
 	font-family: "Poppins", sans-serif;
 	display:block;
 	font-size:12px;
 	margin-bottom:15px;
 }
-.chef-boxs .hover .chef-dtl a{
+.chef-boxs .chef-slide .chef-dtl a{
 	display:inline-block;
 	margin:0 7px;
 }
-.chef-boxs .hover .chef-dtl a i{
+.chef-boxs .chef-slide .chef-dtl a i{
     font-size:19px;
 }
 .chef-icon{
 	display:flex;
 }
-.chef-boxs .hover:hover{
+.chef-boxs .chef-slide:hover{
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
 	opacity:1;
 }
-.chef-boxs .hover .chef-dtl:hover{
+.chef-boxs .chef-slide:hover .chef-dtl{
 	transform:translateY(-30px);
 	transition:all 0.4s ease;
 }
@@ -1048,11 +1063,10 @@ a{
 }
 .footer-box-03 form a{
 	display:inline-block;
-	width:30%;
 	font-family: "Poppins", sans-serif;
 	font-size:15px;
 	background-color:#cda45e;
-	padding:10px 20px;
+	padding:14px 20px;
 	border-radius:50px;
 	position:absolute;
 	right:0;
