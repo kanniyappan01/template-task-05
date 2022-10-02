@@ -102,6 +102,9 @@ a{
 .menu-mid li a:hover{
 	color:#cda45e;
 }
+.menu-mid .drop-down{
+	display:none
+}
 .menu-end{
 	width:15%;
 	display:flex;
@@ -147,6 +150,36 @@ a{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+}
+.bbox-01{
+	width:100%;
+	padding:50px 0px;
+}
+.b-wel{
+	font-weight:700;
+	font-size:44px;
+}
+.h2-con{
+	font-family: "Poppins", sans-serif;
+	font-size:22px;
+	font-weight:300;
+}
+.b-res{
+	color:#cda45e;
+}
+.bbuttons{
+	margin-top:30px;
+}
+.bbuttons a{
+	display:inline-block;
+	font-size:14px;
+	border-radius:22px;
+	border:2px solid #cda45e;
+	padding:9px 30px 9px 30px;
+	margin:0px 5px;
+}
+.bbuttons a:hover{
+	background-color:#cda45e;
 }
 .banner-paly-btn{
 	background-color:rgba(205, 164, 94, 0.4);
@@ -217,38 +250,8 @@ a{
 		opacity:0;
 	}
 }
-
-/*banner-sec end*/
-.bbox-01{
-	width:100%;
-	padding:50px 0px;
-}
-.b-wel{
-	font-weight:700;
-	font-size:44px;
-}
-.h2-con{
-	font-family: "Poppins", sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-.b-res{
-	color:#cda45e;
-}
-.bbuttons{
-	margin-top:30px;
-}
-.bbuttons a{
-	display:inline-block;
-	font-size:14px;
-	border-radius:22px;
-	border:2px solid #cda45e;
-	padding:9px 30px 9px 30px;
-	margin:0px 5px;
-}
-.bbuttons a:hover{
-	background-color:#cda45e;
-}
+/*banner sec end*/
+/*about sec start*/
 .about-sec{
 	padding:60px 0px;
 	background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(../images/about-bg.jpg);
@@ -336,19 +339,22 @@ a{
 	top:5px;
 	left:3px;
 }
+/*about sec end*/
 .whyus-sec{
 	background-color:black;
 	padding:50px 0px;
 }
-.whyus-top{
-    width:100%;
+.con-head{
+	width:100%;
 }
-.whyus-top span{
+.con-head h2{
 	font-family: "Poppins", sans-serif;
 	font-size:14px;
+	font-weight:500;
+	letter-spacing:2px;
 	color:#aaaaaa;
 }
-.whyus-top span::after{
+.con-head h2:after{
 	content:"";
 	width:120px;
 	height:1px;
@@ -356,12 +362,13 @@ a{
 	display:inline-block;
 	margin:4px 10px;
 }
-.whyus-top h2{
+.con-head h3{
+	font-family: "Playfair Display", serif;
 	color:#cda45e;
 	font-size:38px;
-    margin:5px 0;
-	padding-bottom:40px;
+	margin:7px 0px 40px 0px;
 }
+
 .whyus-box{
 	width:33.33%;
 	padding:0 10px;
@@ -514,29 +521,6 @@ a{
 .sec-things{
 	background-color:black;
 	padding:60px 0px;
-}
-.con-head{
-	width:100%;
-}
-.con-head span{
-	font-family: "Poppins", sans-serif;
-	font-size:14px;
-	letter-spacing:2px;
-	color:#aaaaaa;
-}
-.con-head h2{
-	font-family: "Playfair Display", serif;
-	color:#cda45e;
-	font-size:38px;
-	margin:7px 0px 40px 0px;
-}
-.con-head span:after{
-	content:"";
-	width:120px;
-	height:1px;
-	background-color:rgba(255, 255, 255, 0.2);
-	display:inline-block;
-	margin:4px 10px;
 }
 .spacial-div{
 	width:100%;
@@ -1066,7 +1050,7 @@ a{
 	font-family: "Poppins", sans-serif;
 	font-size:15px;
 	background-color:#cda45e;
-	padding:14px 20px;
+	padding:11px 20px;
 	border-radius:50px;
 	position:absolute;
 	right:0;
