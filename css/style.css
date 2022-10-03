@@ -144,6 +144,7 @@ a{
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
+	padding-top:120px;
 }
 .bbox{
 	width:50%;
@@ -461,7 +462,7 @@ a{
 }
 .dish-con{
 	width:87%;
-	padding:0px 7px;
+	padding:0px 18px;
 }
 .dish-img img{
 	width:100%;
