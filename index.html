@@ -39,9 +39,15 @@
 			<div class="header-menu">
 			    <div class="container">
 			        <div class="menu-stat col-12">
-				        <h1 class="res-head h1"><a href="#">RESTAURANTLY</a></h1> 
-				    </div>
-			        <div class="menu-mid d-none d-none-md "> 	
+				        <h1 class="res-head h1"><a href="#">RESTAURANTLY</a></h1>						
+				        <div class="menu-close-btn" id="mobile-btn">
+					        <div class="bars-lt"></div>
+					        <div class="bars-ct"></div>
+					        <div class="bars-rt"></div>
+					    </div>
+					</div>
+					
+			        <div class="menu-mid">	
 				        <ul>
 					        <li><a href="#">Home</a></li>
 					        <li><a href="#">About</a></li>
@@ -72,9 +78,9 @@
         </header>
         <!--nave part start-->
         <!--banner section start-->
-        <section class="banner-sec b-img-size d-flex">
+        <section class="banner-sec b-img-size h">
 			    <div class="container">
-				    <div class="banner-main p-1">
+				    <div class="banner-main p-1 p-tb">
 				        <div class="bbox col-12">
 					        <div class="bbox-01 text-center">
 						        <h1 class="b-wel h2">Welcome to <span class="b-res">Restaurantly<span></h1>
@@ -620,5 +626,14 @@
 			<p>Designed by <a href="#">BootstrapMade</a></p>
 		</div>
 		<!--footer end end--->
+		<script type="text/javascript">
+	        let mobileBtn = document.getElementById("mobile-btn");
+	        let mobileNav = document.getElementsByClassName("head-menu")[0];
+
+	        mobileBtn.addEventListener("click", ()=>{
+		    mobileBtn.classList.toggle("active-btns");
+		    mobileNav.classList.toggle("active-menu");
+	        });
+         </script>
 		</body>
 	</html>

@@ -21,10 +21,6 @@
 	display:flex;
 	flex-wrap:wrap;
 }
-.menu-mid ul{
-	display:flex;
-	flex-wrap:wrap;
-}
 li{
 	font-size:15px;
 	list-style-type:none;
@@ -74,6 +70,7 @@ a{
 }
 .menu-stat{
 	width:25%;
+	position:relative;
 }
 .menu-mid{
 	width:60%;
@@ -135,16 +132,16 @@ a{
     background-repeat:no-repeat;
     background-attachment:fixed;
 }
-.d-flex{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
+/* .d-flex{ */
+	/* display:flex; */
+	/* justify-content:center; */
+	/* align-items:center; */
+/* } */
 .banner-main{
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
-	padding-top:120px;
+	padding-top:300px;
 }
 .bbox{
 	width:50%;
